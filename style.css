@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    margin-top: 5vw;
+
+}
+
+.calculator {
+    border: 2px solid gray;
+    height: 550px;
+    width: 350px;
+    border-radius: 10px;
+    background-color: black;
+    border: 2px solid red;
+}
+.calculator:hover{
+border: 2px solid purple;
+}
+
+.calculator h2 {
+    text-align: center;
+    margin: 10px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+
+}
+
+#display_cal {
+    margin: 20px 20px;
+    height: 50px;
+    width: 85%;
+    border-radius: 10px;
+    font-size: 2rem;
+    background-color: white;
+}
+#display_cal:hover{
+    /* background-color: rgb(234, 223, 223); */
+    border: 3px solid red;
+}
+
+.cal-num {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin: 10px;
+    border: 2px solid lavender;}
+
+.button {
+    margin-top: 50px;
+    height: 50px;
+    width: 50px;
+    margin: 10px 10px;
+    border-radius: 7px;
+    font-size: large;
+    border: none;
+    color: white;
+    background-color: gray;
+}
+div .cal-num .bg-color{
+    background-color: orange;
+}
+
+.button:hover {
+    background-color: white;
+    color: rgb(155, 19, 19);
+    border: 2px solid red;
+}
+div .cal-num .eqal{
+    height: 50px;
+    width: 18vw;
+    background-color: rgb(138, 226, 138);
+    background-color: orange;
+    font-weight: bolder;
+    font-size: xx-large;
+}
